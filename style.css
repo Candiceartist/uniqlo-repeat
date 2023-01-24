@@ -1,0 +1,298 @@
+@media (max-width: 1680px) {
+    body {
+      background-color: rgb(211, 228, 241);
+      color: black;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .navContainer {
+      background-color:rgb(228, 236, 242);
+      background-image: url(https://faq-ca.uniqlo.com/resource/1513759597000/FRCS_FAQ/img/logo.png);
+      border: solid #f50606;
+      height: 52px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      /* position: fixed; */
+    }
+
+    .left {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .mid {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .right {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .nlTab {
+      border: solid red;
+      border-width: .2px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+
+    }
+
+    .mainContainer {
+      border: solid #b3e9fc;
+      height: 600vh;
+      display: flex;
+      justify-content: space-evenly;
+      border-width: .2px;
+    }
+
+    .leftBar {
+      border: solid #c0e7f4;
+      border-width: .2px;
+      width: 20%;
+      display: block;
+    }
+
+    .mainScrollContainer {
+      border: solid rgb(236, 205, 205);
+      border-width: .2px;
+      width: 60%;
+      display: block;
+    }
+
+    .rightBar {
+      border: solid #b9dfec;
+      border-width: .2px;
+      width: 20%;
+      display: block;
+    }
+
+  }
+
+  /*------- Desktop-------------------------- */
+  @media (max-width: 1280px) {
+    body {
+      background-color: rgb(236, 203, 203);
+      color: salmon;
+
+    }
+
+    .navContainer {
+      background-color: rgb(245, 221, 221);
+      border: solid #333C3F;
+      height: 52px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      /* position: fixed; */
+    }
+
+    .left {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .mid {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .right {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .nlTab {
+      border: solid red;
+      border-width: .2px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+
+    }
+
+    .mainContainer {
+      border: solid rgb(240, 216, 216);
+      height: 600vh;
+      display: flex;
+      justify-content: space-evenly;
+      border-width: .2px;
+    }
+
+    .leftBar {
+      border: solid #b7d8e3;
+      border-width: .2px;
+      width: 0%;
+      display: none;
+    }
+
+    .mainScrollContainer {
+      border: solid #b8d7e1;
+      border-width: .2px;
+      width: 70%;
+      display: block;
+    }
+
+    .rightBar {
+      border: solid #b9d2da;
+      border-width: .2px;
+      width: 30%;
+      display: block;
+    }
+
+  }
+
+  /* -------------Ipad----------------------- */
+  @media (max-width: 680px) {
+    body {
+      background-color: rgb(243, 210, 210);
+      color: white;
+
+    }
+
+    .navContainer {
+      background-color: rgb(247, 213, 213);
+      border: solid #c3e1eb;
+      height: 52px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      /* position: fixed; */
+    }
+
+    .left {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .mid {
+      width: 40%;
+      display: none;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .right {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .nlTab {
+      border: solid rgb(248, 203, 203);
+      border-width: .2px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+
+    }
+
+    .mainContainer {
+      border: solid #bbdde8;
+      height: 600vh;
+      display: flex;
+      justify-content: space-evenly;
+      border-width: .2px;
+    }
+
+    .leftBar {
+      /* border: solid white; */
+      border-width: .2px;
+      width: 0%;
+      display: none;
+    }
+
+    .mainScrollContainer {
+      padding-top:3vh;
+      border: solid rgb(232, 190, 190);
+      border-width: .2px;
+      width: 100%;
+      display: block;
+    }
+
+    .rightBar {
+      border: solid rgb(232, 197, 197);
+      border-width: .2px;
+      width: 0%;
+      display: none;
+    }
+
+  }
+
+
+  /* -----------Mobile ----------------------*/
+
+  /* --------------------------------------- */
+  .categoryContainer {
+  
+    margin-top: 10%;
+    border-radius: 30px;
+  }
+  .icon {
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  .postContainer{
+    border:solid white;
+    border-width:.2px;
+    margin-bottom:12vh;
+    width:100%;
+    /* height:61vh; */
+    
+  }
+  .postMain{
+    border:solid #8ec7db;
+    border-width:.2px;
+    height:400px;
+  }
+  .btnContainer{
+    /* border:solid #333C3F; */
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:8vh;
+  }
+  .btn{
+    border:solid white;
+    border-width:.2px;
+    width:23%;
+    height:25px;
+    background-color:#94d0e3;
+    text-align:center;
+  }
+  .catcher{
+    display:flex;
+    justify-content: space-between;
+    font-size:12px;
+    margin:2em;
+    text-align:right;
+    padding-top: 5px;
+  }
+  .commentContainer{
+    border:solid lightblue;
+    border-width:.2px;
+    /* height:8vh; */
+    margin-top:22px;
+  }
+  .postHeader{
+    background-color:#cde6ef;
+    height:6vh;
+  }
